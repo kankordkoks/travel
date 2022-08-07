@@ -12,6 +12,67 @@
 <link href="https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,700;1,400&family=Magra:wght@700&family=Red+Hat+Text:wght@500&display=swap" rel="stylesheet">
 
 <header class="header">
+
+	<div class="pop_up">
+		<div class="pop_up_body">
+			<h2 class="h2_pop_up">Log in your account</h2>
+			<button class="button_facebook">
+				<a href="http://www.facebook.com."></a>
+				<img src=".//img/Facebook Logo.svg" id="facebook" alt="facebook">
+				<p class="text_logo_facebook">Sign In with Facebook</p>
+				</button>
+			<div class="cont_or">
+			<div class="line1"></div>
+			<div class="or">or</div>
+			<div class="line2"></div>
+		</div>
+		<button class="button_google">
+			<a href="https://www.google.ru/"><img src=".//img/logo googleg 48dp.svg" id="google" alt="google"></a>
+			<p class="text_logo_google">Sign In with Google</p>
+		</button>
+		<input type="email" id="login" placeholder="Email">
+		<p class="text_password"></p>
+		<input type="password" name="password" id="password" placeholder="Password">
+		<button class="sing_in">Sing In</button> 
+		<a class="Forgot" href="#">Forgot Your Password?</a>  
+		<div class="line"></div>
+	   <div class="dont">Don’t have an account? <span> <a href="#">Register</a></span> </div>
+		</div>
+	</div> 
+</div>  
+
+<div class="sing_pop_up">
+	<div class="sing_popup_body">
+		 <h2 class="create">Create account</h2>
+		 <input type="email" id="login-mini" placeholder="Email">
+		 <input type="password" name="password-mini" id="password" placeholder="Password">
+		 <button class="sing_inm">Sing In</button> 
+		 <div class="line"></div>
+		 <div class="dont">Don’t have an account? <span> <a href="#">Login in</a></span> </div>
+
+	</div>
+</div>
+
+
+
+
+
+	<div class="conteiner_barger">
+		<input type="checkbox" id="burger">
+		<label for="burger"></label>
+		<nav class="burgernav">
+			<ul class="burgerul">
+				<li class="burgerli"><a href="">How It Works</a></li>
+				<li class="burgerli"><a href="">Plan Your Trip</a></li>
+				<li class="burgerli"><a href="">Destinations</a></li>
+				<li class="burgerli"><a href="">Travel Stories</a></li>
+				<li class="burgerli  account"><a href="">Account</a></li>
+				<li class="burgerli"><a href="">Social media</a></li>
+			</ul>
+
+		</nav>
+
+	</div>
 	<div class="container__header">
 		 <div class="logo">
 			  <div class="logo-img"></div>
@@ -46,28 +107,26 @@
 
 
 	
-	<section class="Step">
+	<section class="step">
 	<h2 class="hhh">3 STEPS TO THE PERFECT TRIP</h2>
 	<div class="conteiner-step" >
-	<div class="baik1">
-		<img src="./img/baik.svg" alt="baik">
-		<br>
-		<h4 class="tell">Tell us what you want to do</h4>
-</div>
-	<div class="calendar">
-		<br>
-		<img src=".//img/calendar.svg" alt="calendar">
-		<br>
-<h4 class="share">Share us preferable dates </h4>
-</div>
-<div class="fly">
-	<img src=".//img/fly.svg" alt="fly">
-	<br>
-	<h4 class="we-will">We will give you recommendations</h4>
 
-</div>
 
+		<div class="cod1">
+			<div class="baik1"></div>
+			<h4 class="tell">Tell us what you want to do</h4>
+	  </div>
+	  <div class="cod2">
+			<div class="calendar"></div>
+			<h4 class="share">Share us preferable dates</h4>
+	  </div> 
+	  <div class="cod3">
+			<div class="fly"></div>
+			<h4 class="we-will">We will give you recommendations</h4>
+	  </div> 
+	  
 	</div>
+
 	
 	</section>
 
@@ -76,20 +135,21 @@
 	
 	<section class="distination">
 		<h2 class="popular">POPULAR DESTINATIONS</h2>
-		<div class=" container-3">
-			 <div class="spain">
-				  <img src="./img/SPAIN.jpg" alt="spai">
-			 </div>
-			 <div class="japan">
-				  <img src="./img/JAPAN.jpg" alt="japa">
-			 </div>
-			 <div class="usa">
-					 <img src="./img/USA.jpg" alt="us">
-			 </div>
-		</div>
-		<div>
-
-		</div>
+		<div class="wrapper">
+			<input type="radio" name="point" id="slide1" checked>
+			<input type="radio" name="point" id="slide2">
+			<input type="radio" name="point" id="slide3">
+			<div class="slider">
+				  <div class="slides slide1"></div>
+				  <div class="slides slide2"></div>
+				  <div class="slides slide3"></div>
+			</div>
+			<div class="controls">
+				  <label for="slide1"></label>
+				  <label for="slide2"></label>
+				  <label for="slide3"></label>
+			</div>
+	</div>
 		<button class="find-more"></button>
   </section>
 
@@ -99,6 +159,7 @@
 	    <div class="four-foto">
 	          <div class="container-story1">
 				   <img class="pic-story" src="./img/str1.jpg" alt="st1">
+					<img class="pic-story-mini" src=".//img/story1-mini.jpg" alt="">
 				   <div class="container-text">
 					 <h4 class="large">10 Photos of Attractive Thailand</h4>
 					 <p class="small">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit... Read More</p>
@@ -106,6 +167,8 @@
 		     </div>
 		     <div class="container-story2">     
 				   <img class="pic-story" src="./img/str2.jpg" alt="st2">
+					<img class="pic-story-mini" src=".//img/story2-mini.jpg" alt="">
+
 				   <div class="container-text">
 					   <h4 class="large">Canyonlands National Park, Utah</h4>
 					   <p class="small">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit... Read More</p>
@@ -113,6 +176,8 @@
 		    </div>
 		    <div class="container-story3">  
 				 <img class="pic-story" src="./img/str3.jpg" alt="st3">
+				 <img class="pic-story-mini" src=".//img/story3-mini.jpg" alt="">
+
 				 <div class="container-text">
 						 <h4 class="large">I left my heart in the Mountains!</h4>
 						 <p class="small">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit... Read More</p>
@@ -120,6 +185,8 @@
 		   </div>
 		    <div class="container-story4">
 				  <img class="pic-story" src="./img/str4.jpg" alt="st4">
+				  <img class="pic-story-mini" src=".//img/story4-mini.jpg" alt="">
+
 				  <div class="container-text">
 						 <h4 class="large">The Longest journey in my life!</h4>
 						 <p class="small">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit... Read More</p>
@@ -144,6 +211,6 @@
 </footer>
 
 
-
-</body>
+<script src="./index.js"></script>
+</body >
 </html>
